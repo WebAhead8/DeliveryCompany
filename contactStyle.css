@@ -1,0 +1,28 @@
+body {
+  background-color: #434a54;
+  text-align: center;  
+} 
+
+h1, h2{
+    color:  #f6bb42;
+}
+
+h3, form {
+    color: white;
+}
+
+#goods_data {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+    
+  
+  
+
+
