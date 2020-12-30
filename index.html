@@ -4,22 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Express Delivery</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pic/icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <div class="mainBody">
-        <ul class="hdr">
-            <li class="logo"> EXPRESS DELIVERY </li>
-            <li class="info"> info@express.com</li>
-            <li class="info"> 0529683903</li>
+    <header>
+        <ol>
+            <li> <a href="index.html"> <img src="pic/logo.png" alt="logo" width="400px"></a></li>
+            <li class="info"> <img src="pic/addressIcon.png" width="15px" height="15px"> | Nazareth, Tel-Aviv </li>
+            <li class="info"> <img src="pic/callIcon.png" width="15px" height="15px"> | +972 52 968 3903</li>
+            <li class="info"> <img src="pic/emailIcon.png" width="15px" height="15px"> | info@expressdelivery.com</li>
+        </ol>
+    </header>
+    
+    <img src="pic/hdr.PNG" width="800px" alt="header" id="imgHdr">
+
+    <nav>
+        <ul>
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="services.html"> SERVICES </a></li>
+            <li><a href="aboutUs.html"> ABOUT US</a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
         </ul>
+    </nav>
+    <br><hr width="800px">
 
-        <div class="nav">
-            <ul>
+    <div class="mainBody">
+        <h1 style="color: #f6bb42;"> WELCOME TO EXPRESS DELIVERY COMPANY</h1>
+        <p>
+            Local Express Delivery Company based at Nazareth. We specialize in delivering food supplies, clothes and shoes.
+            Make your order from your favorite store in the country and we will deliver it to your door. <br>
+            <br>We work around the clock to keep all our customers happy and relieved to get their order fast and safe. As you know this is our moto :
+           <center> <i style="color: #f6bb42; font-size: larger;"> <u> We Handle With Care</u></i> </center>
+        </p>
+        
+        <h1 style="color: #f6bb42; text-align: center;"> Meet Our Management Team </h1>
+<hr width="800px">
+        <table>
+            <tr> 
+                 <th> Alaa Lathqani </th>
+                 <th> Haneen Awad</th>
+                 <th> Bushra Shwiki</th>
+            </tr>
+            <tr>
+                <td> The Founder & Manager </td>
+                <td> Packaging Official Manager</td>
+                <td> Delivery Manager</td>
+           </tr>
+        </table>
+       
+        <h1 style="color: #f6bb42; text-align: center;">Any Questions? Hit us a fast message</h1>
 
-            </ul>
-        </div>
+        <form>
+            <label>Name :</label>
+            <input type="text" name="name">
+
+            <label>E-mail :</label>
+            <input type="email" name="email">
+
+            <label>Message :</label>
+            <textarea name="message"></textarea>
+            <br />
+            <input type="submit" value="Send" />
+        </form>
 
     </div>
+
+    <footer>
+        <p>&copy; Copyright 2020, Express Delivery Company</p>
+    </footer> 
 </body>
 </html>

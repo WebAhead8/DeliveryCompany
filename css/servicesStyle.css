@@ -1,0 +1,48 @@
+.body {
+    background-color: #434a54;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topPage {
+    width: 800px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.services{
+    color: #f6bb42;
+    text-align: center;
+}
+.para{
+    color:white;
+    font-size: x-large; 
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.container { 
+    overflow: hidden;
+ }
+ 
+ .titlePrice{
+    color: #f6bb42;
+   font-size: xx-large; 
+   text-align: center;
+   text-decoration: underline;
+ }
+
+
+.line1 {
+    color:white;
+    font-size: x-large;
+}
+.line2 {
+    color: #f6bb42;
+    font-size: x-large;
+}
+.line3 {
+color:red;
+font-size: x-large;
+}
