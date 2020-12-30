@@ -38,26 +38,26 @@
         <div>
         <h2>Information for the required goods</h2>
        <label for="town">Town of the store:</label>
-       <input type="text" id="town" name="town">
+       <input type="text" id="town" name="town" required>
        <br>
        <label for="store_name">Name of the store:</label>
-       <input type="text" id="store_name" name="store_name">
+       <input type="text" id="store_name" name="store_name" required>
        <br> 
        <label for="postal_code">Postal Code:</label>
-       <input type="text" pattern="[0-9]{7}" title="seven digit postal code"> 
+       <input type="text" pattern="[0-9]{7}" title="seven digit postal code" required> 
        <br>
        <label for="street_number">Street no.<label>
-        <input type="text" pattern="[0-9]{3}" title="three digit street number"> 
+        <input type="text" pattern="[0-9]{3}" title="three digit street number" required> 
         <br>
         <label for="goods">The goods: </label>
         <textarea id="goods"></textarea>
 
        <h2>Input your data</h2>
        <label for="full_name">Full name:</label>
-       <input type="text" id="full_name" name="full_name"> 
+       <input type="text" id="full_name" name="full_name" required> 
        <br>
        <label for="e-mail">E-mail:</label>
-       <input type="email" id="e-mail" name="e-mail">
+       <input type="email" id="e-mail" name="e-mail" required>
        <br>
        <label for="region">Region:</label>
        <select id="region" name="region">
@@ -67,13 +67,13 @@
         </select>
        <br>
        <label for="town">Town:</label>
-       <input type="text" id="town" name="town">
+       <input type="text" id="town" name="town" required>
        <br>
        <label for="postal_code">Postal Code:</label>
-       <input type="text" pattern="[0-9]{7}" title="seven digit postal code"> 
+       <input type="text" pattern="[0-9]{7}" title="seven digit postal code" required> 
        <br>
        <label for="street_number">Street no.<label>
-        <input type="text" pattern="[0-9]{3}" title="three digit street number">
+        <input type="text" pattern="[0-9]{3}" title="three digit street number" required>
        </div>
         
         <br><br><br> <input type="submit" value="Submit">
